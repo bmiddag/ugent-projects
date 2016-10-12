@@ -1,0 +1,2 @@
+# Video Shot Detection (2014)
+A .NET application that has DirectShow support for video playback. This application has different methods to detect shot changes in videos. I was mainly responsible for getting video playback to work properly as well as the GUI. If you're interested, make sure to check out the video shot detection wizard!

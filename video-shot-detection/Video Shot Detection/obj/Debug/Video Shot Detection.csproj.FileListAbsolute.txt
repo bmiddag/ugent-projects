@@ -1,0 +1,10 @@
+C:\BART\UNIF\Ontwerp van multimediatoepassingen\pract2\Project\Video-Shot-Detection\Video Shot Detection\obj\Debug\Video Shot Detection.csprojResolveAssemblyReference.cache
+C:\BART\UNIF\Ontwerp van multimediatoepassingen\pract2\Project\Video-Shot-Detection\Video Shot Detection\obj\Debug\Video Shot Detection.csproj.GenerateResource.Cache
+C:\BART\UNIF\Ontwerp van multimediatoepassingen\pract2\Project\Video-Shot-Detection\Video Shot Detection\bin\Debug\DirectShowLib-2005.dll
+C:\BART\UNIF\Ontwerp van multimediatoepassingen\pract2\Project\Video-Shot-Detection\Video Shot Detection\obj\Debug\DirectShow.MainForm.resources
+C:\BART\UNIF\Ontwerp van multimediatoepassingen\pract2\Project\Video-Shot-Detection\Video Shot Detection\bin\Debug\ShotDetector.exe
+C:\BART\UNIF\Ontwerp van multimediatoepassingen\pract2\Project\Video-Shot-Detection\Video Shot Detection\bin\Debug\ShotDetector.pdb
+C:\BART\UNIF\Ontwerp van multimediatoepassingen\pract2\Project\Video-Shot-Detection\Video Shot Detection\obj\Debug\DirectShow.ShotDetectionWizard.resources
+C:\BART\UNIF\Ontwerp van multimediatoepassingen\pract2\Project\Video-Shot-Detection\Video Shot Detection\obj\Debug\DirectShow.Properties.Resources.resources
+C:\BART\UNIF\Ontwerp van multimediatoepassingen\pract2\Project\Video-Shot-Detection\Video Shot Detection\obj\Debug\ShotDetector.exe
+C:\BART\UNIF\Ontwerp van multimediatoepassingen\pract2\Project\Video-Shot-Detection\Video Shot Detection\obj\Debug\ShotDetector.pdb
