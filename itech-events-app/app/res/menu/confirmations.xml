@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_edit_confirmation"
+        android:title="@string/action_edit_confirmation"
+        android:onClick="editConfirmation"
+        />
+    <item
+        android:id="@+id/action_delete_confirmation"
+        android:title="@string/action_delete_confirmation"
+        android:onClick="deleteConfirmation"
+        />
+
+</menu>

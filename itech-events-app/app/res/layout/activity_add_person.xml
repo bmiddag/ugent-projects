@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">   
+ 
+    <TextView
+        android:id="@+id/title_add_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/person_add_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true" />
+    
+    <LinearLayout
+    	android:id="@+id/btn_group_add_person"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_alignParentBottom="true" >
+    	<Button
+        	android:id="@+id/btn_add_person_back"
+        	android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+    	    android:text="@string/action_cancel"
+        	android:onClick="back" />
+        <Button
+        	android:id="@+id/btn_add_person"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text="@string/action_save"
+        	android:onClick="post" />
+	</LinearLayout>
+     
+    <ScrollView       
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_add_person"
+        android:layout_above="@id/btn_group_add_person">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+         
+            <TextView               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/person_name" />
+         
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" >    
+                <requestFocus />
+            </EditText>
+         
+            <TextView               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/person_email" />
+         
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+         
+            <TextView               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/person_birth_date" />
+                
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:orientation="horizontal" >
+		    
+				<Button 
+				    android:id="@+id/btn_edit_birth_date"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="@string/action_set_date"
+				    android:onClick="setBirthDate" />
+				
+				<TextView 
+				    android:id="@+id/txt_birth_date"
+				    android:layout_width="fill_parent"
+				    android:layout_marginLeft="5dp"
+					android:gravity="left"
+				    android:layout_height="wrap_content"
+				    android:freezesText="true" 
+				    android:ems="10" />
+			</LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+ 
+</RelativeLayout>

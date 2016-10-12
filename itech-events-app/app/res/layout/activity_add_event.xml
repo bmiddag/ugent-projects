@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">   
+ 
+    <TextView
+        android:id="@+id/title_add_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/event_add_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true" />
+    
+    <LinearLayout
+    	android:id="@+id/btn_group_add_event"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_alignParentBottom="true" >
+    	<Button
+        	android:id="@+id/btn_add_event_back"
+        	android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+    	    android:text="@string/action_cancel"
+        	android:onClick="back" />
+        <Button
+        	android:id="@+id/btn_add_event"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text="@string/action_save"
+        	android:onClick="post" />
+	</LinearLayout>
+	
+    <ScrollView       
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_add_event"
+        android:layout_above="@id/btn_group_add_event">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+         
+            <TextView               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_title" />
+         
+            <EditText
+                android:id="@+id/et_eventname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" >    
+                <requestFocus />
+            </EditText>
+         
+            <TextView               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_description" />
+         
+            <EditText
+                android:id="@+id/et_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+         
+            <TextView               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_start_date" />
+                
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:orientation="horizontal" >
+		    
+				<Button 
+				    android:id="@+id/btn_edit_start_date"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="@string/action_set_time"
+				    android:onClick="setStartDate" />
+				
+				<TextView 
+				    android:id="@+id/txt_start_date"
+				    android:layout_width="fill_parent"
+				    android:layout_marginLeft="5dp"
+					android:gravity="left"
+				    android:layout_height="wrap_content"
+				    android:freezesText="true" 
+				    android:ems="10" />
+			</LinearLayout>
+			<TextView               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event_end_date" />
+			<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:orientation="horizontal" >
+		    
+				<Button 
+				    android:id="@+id/btn_edit_end_date"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="@string/action_set_time"
+				    android:onClick="setEndDate" />
+				
+				<TextView 
+				    android:id="@+id/txt_end_date"
+				    android:layout_width="fill_parent"
+				    android:layout_marginLeft="5dp"
+					android:gravity="left"
+				    android:layout_height="wrap_content"
+				    android:freezesText="true" 
+				    android:ems="10" />
+			</LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+ 
+</RelativeLayout>

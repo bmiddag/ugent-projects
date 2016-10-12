@@ -1,0 +1,6 @@
+C:\BART\UNIF\CPROG\PROJECTS\VirtualMuseumProtocol\VirtualMuseumProtocol\bin\Release\protocol_installer.exe.config
+C:\BART\UNIF\CPROG\PROJECTS\VirtualMuseumProtocol\VirtualMuseumProtocol\bin\Release\protocol_installer.exe
+C:\BART\UNIF\CPROG\PROJECTS\VirtualMuseumProtocol\VirtualMuseumProtocol\bin\Release\protocol_installer.pdb
+C:\BART\UNIF\CPROG\PROJECTS\VirtualMuseumProtocol\VirtualMuseumProtocol\obj\Release\VirtualMuseumProtocol.csprojResolveAssemblyReference.cache
+C:\BART\UNIF\CPROG\PROJECTS\VirtualMuseumProtocol\VirtualMuseumProtocol\obj\Release\protocol_installer.exe
+C:\BART\UNIF\CPROG\PROJECTS\VirtualMuseumProtocol\VirtualMuseumProtocol\obj\Release\protocol_installer.pdb

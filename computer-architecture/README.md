@@ -1,0 +1,2 @@
+# Computer Architecture Labs (2013)
+The two most important labs of the Computer Architecture course are provided here. They were about assembly. Our scores for these labs were fairly good as we got very creative in the optimization phase, but in `practicum_2`, we forgot two lines of assembly that cost us many points. From this we learned the importance of following calling conventions the hard way.

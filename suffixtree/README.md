@@ -1,0 +1,2 @@
+# Suffix tree search algorithms (2012)
+A Java project that involves suffix tree search algorithms. This was a project for Data structures &amp; algorithms 2. The Dutch project assignment and report can be found under `opgave_project_da2.pdf` and `extra/verslag.pdf` respectively.

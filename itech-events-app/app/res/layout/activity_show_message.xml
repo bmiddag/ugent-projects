@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ShowMessageActivity" >
+    
+    <LinearLayout
+    	android:id="@+id/btn_group_show_message"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_alignParentBottom="true" >
+    	<Button
+        	android:id="@+id/btn_show_message_back"
+        	android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+    	    android:text="@string/action_back"
+        	android:onClick="back" />
+        <Button
+        	android:id="@+id/btn_add_message"
+        	android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+    	    android:text="@string/action_add_message"
+        	android:onClick="addMessage" />
+	</LinearLayout>
+	
+    <ScrollView       
+        	android:id="@+id/show_message_list"
+        	android:layout_width="match_parent"
+        	android:layout_height="fill_parent"
+        	android:fillViewport="true"
+        	android:layout_above="@id/btn_group_show_message" >
+        	<ListView
+        		android:id="@android:id/list"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:padding="5dp"
+        		android:textAppearance="?android:attr/textAppearanceMedium" />
+        </ScrollView>
+
+</RelativeLayout>

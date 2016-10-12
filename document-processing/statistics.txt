@@ -1,0 +1,5 @@
+Statistics:
+* Number of pages crawled: 500
+* Number of distinct terms found: 80
+* Mean number of incoming links per page: 2.508
+* Mean number of outgoing links per page: 2.508

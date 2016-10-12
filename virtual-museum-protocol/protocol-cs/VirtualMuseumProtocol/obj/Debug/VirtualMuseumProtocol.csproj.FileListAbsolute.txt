@@ -1,0 +1,2 @@
+C:\BART\UNIF\CPROG\PROJECTS\VirtualMuseumProtocol\VirtualMuseumProtocol\bin\Debug\VirtualMuseumProtocol.exe.config
+C:\BART\UNIF\CPROG\PROJECTS\VirtualMuseumProtocol\VirtualMuseumProtocol\bin\Debug\protocol_installer.exe.config

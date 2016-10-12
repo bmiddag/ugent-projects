@@ -1,0 +1,2 @@
+# Virtual Museum: Protocol installer (2015)
+For the 3D Virtual Museum project, we wanted to be able to open museums from a web page. Thus, we needed to add the necessary information for this protocol to the registry. I tried to do this directly using a C++ application first, but due to problems with Microsoft SmartScreen (due to being self-signed), I decided to create a harmless C# application instead that opens with admin permissions and executes a batch file that creates the necessary registry keys. A workaround, sure, but this worked without problems on each machine.
